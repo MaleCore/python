@@ -22,6 +22,7 @@ print("2:查找名片".center(30," "))
 print("3:修改名片".center(30," "))
 print("4:删除名片".center(30," "))
 print("5:退出系统".center(30," "))
+print("6:显示名片".center(30," "))
 cards = []#定义空列表
 while True:
 	fun_number = int(input("请选择功能"))
@@ -105,9 +106,12 @@ while True:
 					print("删除成功")
 			
 				break
-
 		if flag == 0:
 			print("没有此人")	
+	
 	elif fun_number == 5:
 		#二次确认
 		break
+	
+#	elif fun_number == 6:
+		

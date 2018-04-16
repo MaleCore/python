@@ -4,6 +4,7 @@ print("2:查找名片".center(30," "))
 print("3:修改名片".center(30," "))
 print("4:删除名片".center(30," "))
 print("5:退出系统".center(30," "))
+print("6:显示名片",center(30," "))
 cards = []#定义空列表
 while True:
 	fun_number = int(input("请选择功能"))
