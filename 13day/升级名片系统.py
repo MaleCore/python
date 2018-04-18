@@ -1,4 +1,4 @@
-print("名片系统".center(30,"*"))
+print("名片系统18v.04".center(30,"*"))
 print("1:新增名片".center(30,"*"))
 print("2:查找名片".center(30,"*"))
 print("3:修改名片".center(30,"*"))
